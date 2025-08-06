@@ -1,0 +1,14 @@
+{
+    // How often to check for new backups, in seconds
+    "check_interval": 7200, // 2hrs,
+
+    // Where to save downloaded backups
+    "save_path": "/var/backup_mirror",
+
+    // Configuration for connecting to main server
+    "connection": {
+        "host": "1.2.3.4",
+        "port": 5000,
+        "apikey": "bakch-paste-your-api-key-here"
+    }
+}

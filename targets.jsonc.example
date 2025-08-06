@@ -1,0 +1,6 @@
+{
+    // Enter IDs of targets you want to back up here
+    "targets": [
+        "12345678-90ab-cdef-1234-567890abcdef"
+    ]
+}

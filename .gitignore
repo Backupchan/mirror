@@ -1,0 +1,6 @@
+*.swp
+__pycache__/
+config.jsonc
+targets.jsonc
+log/
+
