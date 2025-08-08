@@ -89,5 +89,5 @@ class Mirror:
             except requests.exceptions.ConnectionError as exc:
                 self.logger.error("Network error when accessing target {%s}", target_id, exc_info=exc)
             except BackupchanAPIError as exc:
-                self.logger.error("Error when accessing target {%s}: %s", str(exc))
+                self.logger.error("Error when accessing target {%s}: %s", target_id, str(exc))
                 return None, None
